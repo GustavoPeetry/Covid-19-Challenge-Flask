@@ -1,0 +1,21 @@
+    1  ls
+    2  cp ../mysite
+    3  cp ../mysite/* ./
+    4  ls
+    5  mkdir static templates
+    6  ls
+    7  cp ../mysite/templates/* templates/
+    8  ls /templates
+    9  ls templates
+   10  cp ../mysite/static/* static/
+   11  ls static
+   12  git add 
+   13  git add.
+   14  git add .
+   15  git commit -m "MEU COMMIT "
+   16  git config --global user.email "petry2020@gmail.com"
+   17  git config --global user.name "GustavoPeetry"
+   18  git commit -m "PRIMEIRO DE MUITOS"
+   19  git push origin master
+   20  history
+   21  history > logcomandospythonanywhere.txt
