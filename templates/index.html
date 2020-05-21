@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+  .coluna{
+  float: left;
+  width: 28%;
+}
+.row {
+  content: "";
+  clear: both;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.row img {
+display:block;
+ position: relative;
+ top: 5%;
+}
+</style>
+<title>COVID-19-Mask-Detection</title>
+</head>
+<body>
+
+{% include 'nav.html' %}
+<div class="jumbotron">
+  <h1 class="display-4">Olá !</h1>
+  <p class="lead"><div> Nós alunos do IFPR de Capanema criamos um site para detecção de mascaras. É simples!  </div></p>
+  <hr class="my-4">
+  <p>Envie a foto que quiser, e além de ajudar na luta da conscientização de medidas protetivas contra o COVID-19, nosso programa detectará se você está usando a mascara de maneira certa, errada, ou pior... sem mascara.</p>
+  <p class="lead">
+    <a class="btn btn-danger btn-lg btn-block" href="/sobre" role="button">Clique para Saber Mais</a>
+  </p>
+</div>
+
+<div class="row">
+  <div class="coluna" style="width: 10%;"></div>
+<div class="row" style ="background-color:#B22222; width:80%;">
+
+  <div class="coluna"style="width: 4%;"></div>
+  <div class="coluna">
+    <img src="static/sem.png" alt="descrição da imagem" style="width:100%; height:90%;">
+  </div>
+  <div class="coluna" style="width: 4%;"></div>
+  <div class="coluna">
+    <img src="static/errado.png" alt="descrição da imagem" style="width:100%; height:90%;vertical-align: middle;">
+  </div>
+  <div class="coluna" style="width: 4%;"></div>
+  <div class="coluna">
+    <img src="static/certo.png" alt="descrição da imagem" style="width:100%; height:90%;">
+  </div>
+  </div>
+  <div class="coluna" style="width: 4%;"></div>
+  <div class="coluna" style="width: 10%;"></div>
+
+  </div>
+
+
+
+
+
+</body>
+</html>

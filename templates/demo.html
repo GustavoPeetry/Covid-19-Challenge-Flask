@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html>
+  <style>
+    .wrapper-div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.btn {
+  background-color: #B22222;
+
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #e50d0d;
+}
+    </style>
+<head>
+<title>COVID-19 Challenge</title>
+
+
+
+</head>
+<body>
+
+{% include 'nav.html' %}
+<div class="jumbotron">
+<div> Olá, nós alunos do IFPR de Capanema criamos um site para detecção de mascaras.
+  É simples!  </div>
+ <form method="post" action="/demo">
+
+    <button <input type='file' onchange="readURL(this);" class="btn">ESCOLHER IMAGEM</button>
+    <input type="submit" class="btn"
+     value="ENVIAR"/>
+ </form>
+
+
+</form>
+</body>
+</html>
